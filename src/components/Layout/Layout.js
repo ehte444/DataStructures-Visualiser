@@ -23,25 +23,31 @@ function Layout() {
     <>
       <LayoutNavbar />
       <div className="container-fluid mt-4">
-        <div className="row">
-          <div className="col-3">
-            <CommandContainer inputHandler={ inputHandler }/>
+        <div className="flex-container">
+
+        
+          
+          <div className="command-parent">
+            <CommandContainer inputHandler={ inputHandler }/>  
           </div>
-          <div className="col-9">
+          
+          
             
-            <div className="main-renderer">
-              <div className="rparent">
-                <div className="renderer">
-                    <TheArray Nums={Numbers} />
+            <div className="render-container">
+              <div className="main-renderer">
+                <div className="rparent">
+                  <div className="renderer">
+                      <TheArray Nums={Numbers} />
+                  </div>
                 </div>
               </div>
-            </div>
 
-            <div className="row">
+            
               <Output placeholder={ placeholder }/>
             </div>
+            
+          
           </div>
-        </div>
       </div>
     </>
   );

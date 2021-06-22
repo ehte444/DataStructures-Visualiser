@@ -1,11 +1,29 @@
+.flex-container{
+  display: flex;
+  margin: 0 auto;
+  width: 90rem;
+}
+
+
+.command-parent{
+  width: 25vw;
+  margin-right: 3rem;
+}
+
+
+.render-container{
+  width: 75vw;
+}
+
+
 .main-renderer{
   margin-left: auto;
   margin-right: auto;
-  width: 1100px;
+  width: 100%;
 }
 
 .rparent{
-  height: 500px; 
+  height: 31rem; 
   width: 100%;
   background-color: #00001d;
   overflow: auto;

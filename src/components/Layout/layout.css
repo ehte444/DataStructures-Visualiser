@@ -6,20 +6,13 @@
 
 
 .command-parent{
-  width: 25vw;
+  width: 25rem;
   margin-right: 3rem;
 }
 
 
-.render-container{
-  width: 75vw;
-}
-
-
 .main-renderer{
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
+  width: 62rem;
 }
 
 .rparent{

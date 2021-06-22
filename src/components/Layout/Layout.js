@@ -34,16 +34,17 @@ function Layout() {
           
             
             <div className="render-container">
-              <div className="main-renderer">
-                <div className="rparent">
+            <div className='main-renderer'>
+            <div className="rparent">
                   <div className="renderer">
                       <TheArray Nums={Numbers} />
                   </div>
-                </div>
+        
               </div>
 
             
               <Output placeholder={ placeholder }/>
+            </div>
             </div>
             
           

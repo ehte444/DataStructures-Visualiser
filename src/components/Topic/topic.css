@@ -30,6 +30,10 @@
   color: aliceblue;
 }
 
+.definition{
+  font-size: 1rem;
+}
+
 .link:hover{
   text-decoration: none;
 }

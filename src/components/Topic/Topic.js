@@ -26,7 +26,7 @@ function Topic({cards}) {
               <p className='topic-title my-auto'>{card.title}</p>
               <div className="button my-auto">Start</div>
             </div>
-            <p>{card.definition}</p>
+            <p className='definition'>{card.definition}</p>
           </div>
         </div>
       </Link>

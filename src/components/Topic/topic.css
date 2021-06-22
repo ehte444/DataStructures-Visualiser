@@ -1,0 +1,44 @@
+.main-card{
+  background-color: #85b8ff;
+  border-radius: .5rem;
+  padding: 1rem;
+  font-family: 'Roboto Mono', monospace;
+  color:#333;
+  margin: 1.5rem auto;
+  width: 24rem;
+  height: 14rem;
+  transition: transform .2s;
+}
+
+.rdiv{
+  padding: 0 4rem;
+}
+
+.main-card:hover{
+  transform: scale(1.099);
+}
+
+.topic-title{
+  font-size: 2rem;
+}
+
+.button{
+  padding: .5rem 1rem;
+  border-radius: 20px;
+  background-color: #3e50f0;
+  width: 5.3rem;
+  color: aliceblue;
+}
+
+.link:hover{
+  text-decoration: none;
+}
+
+.more-div{
+  width: 90%;
+  margin: 3rem auto;
+  text-align: center;
+}
+
+
+

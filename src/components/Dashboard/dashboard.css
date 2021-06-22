@@ -1,0 +1,29 @@
+.header{
+  text-align: center;
+  margin: 2rem auto;
+}
+
+.title{
+  font-family: 'Roboto Mono', monospace;
+  font-size: 3.8rem;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.header p{
+  font-family: 'Roboto Mono';
+  font-size: 1.2rem;
+  width: 40%;
+  margin: 1rem auto;
+}
+
+.nav-container{
+  background-color: #04009A;
+}
+
+.nav-container >*{
+  height: 100vh;
+}
+
+
+

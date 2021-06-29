@@ -10,7 +10,7 @@ function TheArray({ Nums }) {
     
         <div key={index} className="d-flex flex-column element-container">
           <p className="mx-auto m-0 mb-1 element-no">{index}</p>
-          <div className="element" style={{ border: 'solid 7px' }}>
+          <div className="array-element">
             {item}
           </div>
         </div>

@@ -19,7 +19,7 @@ function Topic({cards}) {
     }
     
     return (
-      <Link className='link' to={`${card.title.toLowerCase()}`}>
+      <Link className='link' to={ card.title === 'Linked List' ? 'linked' : `${card.title.toLowerCase()}`}>
         <div>
           <div className='main-card'>
             <div className="d-flex justify-content-between mb-3">

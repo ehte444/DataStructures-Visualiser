@@ -1,9 +1,8 @@
 import React, {useState} from 'react';
 
-function Command({label, placeholder, btn, note, inputHandler}) {
+function Enqueue({label, placeholder, btn, note, inputHandler}) {
   
-  const [Numbers, setNumbers] = useState([]);
-  
+  const [Number, setNumber] = useState('');
   
   
   return (
@@ -12,10 +11,10 @@ function Command({label, placeholder, btn, note, inputHandler}) {
         <div className="container">
           <div className="row">
             <div className="col-9">
-              {placeholder? <input onChange={(e) => setNumbers(e.target.value)} type="text" className="form-control" placeholder={`${placeholder}`} /> : ''}
+              {placeholder? <input onChange={(e) => setNumber(e.target.value)} value={Number} type="text" className="form-control" placeholder={`${placeholder}`} /> : ''}
             </div>
             <div className="col-3 p-0">
-              <button onClick={(e) => { e.preventDefault(); inputHandler(Numbers)}  } type="submit" className="btn btn-primary">{btn}</button>
+            <button onClick={(e) => { e.preventDefault(); inputHandler(Number); setNumber('')}  } type="submit" className="btn btn-primary">{btn}</button>
             </div>
           </div>
           <p className="mt-2 text-secondary">
@@ -26,4 +25,4 @@ function Command({label, placeholder, btn, note, inputHandler}) {
   )
 }
 
-export default Command;
+export default Enqueue;

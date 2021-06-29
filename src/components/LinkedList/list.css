@@ -1,0 +1,92 @@
+.list-element{
+  background: rgb(0,113,255);
+  background: linear-gradient(158deg, rgba(0,113,255,1) 7%, rgba(0,215,255,1) 66%);
+  padding: 25px !important;
+  color: black;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1.5rem;
+  /* border: 7px solid; */
+}
+
+.empty{
+ /* padding: 15px; */
+ background: rgb(0,113,255);
+ background: linear-gradient(158deg, rgba(0,113,255,1) 7%, rgba(0,215,255,1) 66%);
+ width: 8rem;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.next{
+  width: 90%;
+  height: 90%;
+  background: #00001d;
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+.arrow {
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.arrow span{
+  font-size: 1.5rem;
+}
+
+.arrow i{
+  margin-right: 0.7rem;
+}
+
+.head{
+  color: aliceblue;
+  margin-top: -8rem;
+  margin-right: -4rem;
+}
+
+.head p{
+  font-size: 1.5rem;
+}
+/* Queue Layout */
+
+.flex-container{
+  display: flex;
+  margin: 0 auto;
+  width: 90rem;
+}
+
+
+.command-parent{
+  width: 25rem;
+  margin-right: 3rem;
+}
+
+
+.main-renderer{
+  width: 62rem;
+}
+
+.rparent{
+  height: 31rem; 
+  width: 100%;
+  background-color: #00001d;
+  overflow: auto;
+}
+
+.cover{
+  width: 100%;
+  height: 100%;
+}
+
+.queue-renderer{
+  margin-top: 50px;
+  text-align: center;
+  padding: 3rem;
+}

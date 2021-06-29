@@ -10,10 +10,12 @@
   display: inline;
 }
 
-.navbarlink:hover{
+.navbarlink{
   text-decoration: none;
+  margin: 0 2rem;
 }
 
-.img{
+.i{
+  margin: 0 2rem;
   width: 4rem;
 }

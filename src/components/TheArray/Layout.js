@@ -1,9 +1,10 @@
 import React, {useState} from 'react'
 import CommandContainer from '../CommandContainer/CommandContainer';
-import TheArray from '../TheArray/TheArray';
+import Command from '../Command/Command';
+import TheArray from './TheArray';
 import LayoutNavbar from '../LayoutNavbar/LayoutNavbar';
 import Output from '../Output/Output';
-import './layout.css';
+import '../Layout/layout.css';
 
 function Layout() {
   
@@ -21,14 +22,22 @@ function Layout() {
   
   return (
     <>
-      <LayoutNavbar />
+      <LayoutNavbar title={ 'Array' }/>
       <div className="container-fluid mt-4">
         <div className="flex-container">
 
         
           
           <div className="command-parent">
-            <CommandContainer inputHandler={ inputHandler }/>  
+            <CommandContainer>
+              <Command
+                label={"Create an Array"}
+                placeholder={"1 2 3 4 5"}
+                btn={"Create"}
+                inputHandler={inputHandler}
+                note={'Note:- Type while adding space between each element and then press Create to create an Array'}
+              />
+            </CommandContainer>
           </div>
           
           

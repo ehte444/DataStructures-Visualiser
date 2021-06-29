@@ -1,0 +1,63 @@
+.stack-element{
+  background: rgb(255,0,0);
+  background: linear-gradient(36deg, rgba(255,0,0,1) 19%, rgba(191,0,187,1) 52%);
+  padding: 15px !important;
+  color: black;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1.5rem;
+  border: 7px solid;
+  text-align: center;
+  min-width: 16rem;
+}
+
+.stack-element-container{
+  min-width: auto;
+  display: flex;
+  align-items: center;
+}
+
+/* Stack Layout */
+
+.flex-container{
+  display: flex;
+  margin: 0 auto;
+  width: 90rem;
+}
+
+
+.command-parent{
+  width: 25rem;
+  margin-right: 3rem;
+}
+
+
+.main-renderer{
+  width: 62rem;
+}
+
+.stack-rparent{
+  height: 31rem; 
+  width: 100%;
+  background-color: #00001d;
+  overflow: auto;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.cover{
+  width: 100%;
+  height: 100%;
+}
+
+.stack-renderer{
+  text-align: center;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  -ms-transform-origin-y: auto;
+}
+
+
+
+

@@ -1,0 +1,33 @@
+.info{
+  max-width: 800px;
+  margin: auto;
+  margin-top: 7rem;
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.heading{
+  font-size: 1.5rem;
+}
+
+.heading h1{
+  font-size: 4rem !important;
+}
+
+.link-container p{
+  font-size: 1.5rem;
+}
+
+.link-container .links a{
+  margin: 1rem;
+  text-decoration: none;
+}
+
+.link-container .links .github{
+  color: black;
+}
+
+.link-container .links a i:hover{
+  transform: scale(1.2);
+}
+

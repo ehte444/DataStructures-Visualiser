@@ -5,7 +5,7 @@
 
 ## Overview 👀
 
-![](.gitres/Screenshot (251).png)
+![](https://raw.githubusercontent.com/ehte444/DataStructures-Visualiser/main/.gitres/Screenshot%20(251).png)
 
 - **Name wise Data Strucutres 🤖**
 - **All Fundamental Operations included 🦾**
@@ -40,7 +40,7 @@
     >> For Linux: Terminal
     >> git clone https://github.com/AsishRaju/450-DSA.git
 > Change the folder location to your source Code Folder
-    >> cd 450dsa/src
+    >> cd ds-visualiser/src
 > Install the dependencies
     >> npm install
 > Start the server

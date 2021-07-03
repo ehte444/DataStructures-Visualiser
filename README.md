@@ -5,7 +5,7 @@
 
 ## Overview 👀
 
-![](.gitres/cover.png)
+![](.gitres/Screenshot (251).png)
 
 - **Name wise Data Strucutres 🤖**
 - **All Fundamental Operations included 🦾**

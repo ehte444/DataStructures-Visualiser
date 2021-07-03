@@ -1,4 +1,4 @@
-# 450-DSA Cracker 🚀
+# Data Structures Visualiser 👾
 
 [![React Badge](http://img.shields.io/badge/Powered%20By-React-blue?style=for-the-badge&logo=react)](https://reactjs.org/)
 [![Website Badge](https://img.shields.io/badge/Visit-Now-green?style=for-the-badge&logo=vercel)](https://450dsa.com/)
@@ -7,13 +7,13 @@
 
 ![](.gitres/cover.png)
 
-- **Topic wise question search 🔍**
-- **Topic wise progress 🧐**
-- **Complete local storage 📂**
-- **Mobile first design ✌🏻**
+- **Name wise Data Strucutres 🤖**
+- **All Fundamental Operations included 🦾**
+- **Proper Depiction 👁**
+- **Input based rendering on fly ✌️**
 - **Clean UI ⚡**
 
-## What is 450-DSA Cracker 🤔
+## What is Data Structures Visualiser 🤔
 
 #### DS Visualiser is a Teaching/Learning tool to help visualise fundamental Data Structures 
 

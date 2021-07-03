@@ -33,7 +33,8 @@ class StackLayout extends Component {
 
 
   peekHandler = () => {
-    this.setState({ ...this.state, placeholder: this.state.Numbers[0] });
+    const index = this.state.Numbers.length - 1
+    this.setState({ ...this.state, placeholder: this.state.Numbers[index] });
   }
 
   isEmptyHandler = () => {

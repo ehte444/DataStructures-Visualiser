@@ -3,8 +3,9 @@
 }
 
 .about{
-  display: flex;
-  flex-direction: column-reverse;
+  position: absolute;
+  bottom: 0;
+  margin-left: 1rem;
 }
 
 .about div{

@@ -29,11 +29,11 @@ const structures = [
 function Dashboard() {
   return (
     <div className="container-fluid">
-      <div className="row">
-        <div className="col-1 nav-container">
+      <div>
+        <div className="nav-container">
           <Navbar />
         </div>
-        <div className="col-11">
+        <div className="dash">
           <div className="header">
             <h1 className="title">
               Data Structures Visualiser

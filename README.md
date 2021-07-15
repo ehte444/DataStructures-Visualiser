@@ -1,7 +1,7 @@
 # Data Structures Visualiser 👾
 
 [![React Badge](http://img.shields.io/badge/Powered%20By-React-blue?style=for-the-badge&logo=react)](https://reactjs.org/)
-[![Website Badge](https://img.shields.io/badge/Visit-Now-green?style=for-the-badge&logo=vercel)](https://450dsa.com/)
+[![Website Badge](https://img.shields.io/badge/Visit-Now-green?style=for-the-badge&logo=vercel)](https://zen-noyce-75c66b.netlify.app/)
 
 ## Overview 👀
 
@@ -38,7 +38,7 @@
 > Clone the repo
     >> For Windows: Git Bash
     >> For Linux: Terminal
-    >> git clone https://github.com/AsishRaju/450-DSA.git
+    >> git clone https://github.com/ehte444/DataStructures-Visualiser.git
 > Change the folder location to your source Code Folder
     >> cd ds-visualiser/src
 > Install the dependencies
@@ -48,4 +48,4 @@
 > 450DSA runs on port 3000 of your Local Machine
 ```
 
-[![OPEN-PR](https://img.shields.io/badge/Open%20For-PR-orange?style=for-the-badge&logo=github)](https://github.com/AsishRaju/450-DSA)
+[![OPEN-PR](https://img.shields.io/badge/Open%20For-PR-orange?style=for-the-badge&logo=github)](https://github.com/ehte444/DataStructures-Visualiser)

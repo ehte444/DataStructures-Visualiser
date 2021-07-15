@@ -1,5 +1,5 @@
-import React from 'react';
-import './about.css';
+import React from "react";
+import "./about.css";
 
 function About() {
   return (
@@ -12,16 +12,22 @@ function About() {
       <div className="link-container">
         <p>Find me here 🖖</p>
         <div className="links">
-          <a href="https://github.com/ehte444/DataStructures-Visualiser" className="github">
-          <i class="fab fa-github fa-3x"></i>
+          <a
+            href="https://github.com/ehte444/DataStructures-Visualiser"
+            className="github"
+          >
+            <i class="fab fa-github fa-3x"></i>
           </a>
-          <a href="https://www.linkedin.com/in/ehtesham-siddiqui-463400195/" className="linked-in">
+          <a
+            href="https://www.linkedin.com/in/ehtesham-siddiqui-463400195/"
+            className="linked-in"
+          >
             <i class="fab fa-linkedin fa-3x"></i>
           </a>
-       </div>
+        </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default About
+export default About;
